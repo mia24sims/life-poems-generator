@@ -1,5 +1,11 @@
 body {
-  background-color: #98fbee;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(111, 231, 176) 0%,
+    rgb(154, 198, 242) 100.2%
+  );
+  background-repeat: repeat;
+  min-height: max-content;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -24,7 +30,7 @@ h1 {
 .form-container {
   margin-bottom: 30px;
   background-color: white;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  box-shadow: 0px 20px 60px rgba(41, 241, 255, 0.71);
   border-radius: 10px;
   padding: 15px 20px;
 }
@@ -54,7 +60,6 @@ form {
   width: 150px;
   font-size: 16px;
   border: none;
-
   border-radius: 50px;
   padding: 14px 24px;
 }
@@ -64,7 +69,7 @@ form {
   padding: 20px;
   line-height: 2;
   border-left: 3px solid #086054;
-  box-shadow: 0px 20px 60px rgba(35, 33, 60, 0.03);
+  box-shadow: 0px 20px 60px rgba(41, 241, 255, 0.718);
   border-radius: 10px;
 }
 
