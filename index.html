@@ -7,34 +7,44 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header><h1>Welcome to the AI Life Poem Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic about the life poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The woods are lovely, dark and deep,
-        <br />
-        But I have promises to keep,
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Life Poem Generator</h1>
+      </header>
+
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic about the life poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The woods are lovely, dark and deep,
+          <br />
+          But I have promises to keep,
+        </div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/mia24sims?tab=repositories"> Tamia Sims</a>
+        and is
+        <a
+          href="https://github.com/mia24sims/life-poems-generator"
+          target="_blank"
+        >
+          open-sourced on Github
+        </a>
+        and is hosted on
+        <a href="https://ai-life-poem-generator.netlify.app/">Netlify</a>
+      </footer>
+    </div>
   </body>
-  <footer>
-    This was coded by
-    <a href="https://github.com/mia24sims?tab=repositories"> Tamia Sims</a>
-    and is
-    <a href="https://github.com/mia24sims/life-poems-generator" target="_blank">
-      open-sourced on Github
-    </a>
-    and is hosted on
-    <a href="https://ai-life-poem-generator.netlify.app/">Netlify</a>
-  </footer>
+
   <script src="src/index.js"></script>
 </html>
